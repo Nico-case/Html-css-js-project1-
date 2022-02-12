@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="design.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/3b0b87d55c.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+
+    <title>Html-Css-Js</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="container-video">
+                <div class="box-video">
+                    <video src="video/video.mp4" autoplay muted loop></video>
+                </div>
+                <div class="content-text">
+
+                    <h1>Metalurgica Humatri</h1>
+                    <p>Matriceria y trabajos a diseño</p>
+                </div>
+                <a href="#text-busqueda">
+                    <div class="scroll-down"></div>
+                </a>
+            </div>
+            <div class="text-busqueda" id="text-busqueda">
+                <h2>Desarollo y Fabricacion</h2>
+                <h4>Matrices, piezas especiales a medida,tratamiento termico, con previo control de calidad, terminacion centesimal, asesoramiento y facturacion remota o
+                    presencial.</h4>
+                <h4>Puede encontrar nuestro oferta de servicios en el siguiente catalogo:</h4>
+            </div>
+            <form>
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Fresado</a>
+                <a href="#">Rectificado</a>
+                <a href="#">Torneado</a>
+                <a href="#">Herreria</a>
+            </div>
+        </header>
+        <section class="grid" id="grid">
+            <div class="item" data-categoria="Fresado" data-etiquetas="fresa fresado desgaste especiales matriz "
+                data-descripcion="1.- Fresado y formado de piezas especiales">
+                <div class="item-contenido">
+                    <img src="img/fresado-extra-1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="Fresado" data-etiquetas="fresado fresadora angulo encastre matriz union"
+                data-descripcion="2.- Fresado en piezas de encastre y/o con angulo">
+                <div class="item-contenido">
+                    <img src="img/fresado- angulos-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Herreria" data-etiquetas="agujero agujereadora piezas incrustadas decimales extraccion"
+                data-descripcion="3-Agujeros decimales y extraccion de piezas incrustadas en roscas">
+                <div class="item-contenido">
+                    <img src="img/herreria-agujero-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Rectificado" data-etiquetas="rectificacion rectificado templado material especial terminacion limpia centesimal"
+                data-descripcion="4.-Rectificado en materiales templados, con terminacion centesimal">
+                <div class="item-contenido">
+                    <img src="img/rectificado-banco-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Herreria" data-etiquetas="soldadora soldadura union unir metales mig analogica"
+                data-descripcion="5.-Soldaduras analogica o MIG">
+                <div class="item-contenido">
+                    <img src="img/herreria-soldadura-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Rectificado" data-etiquetas="rectificadora rectificado piezas cilindricas pulido desgaste templado centesimal"
+                data-descripcion="6.-Rectificado y pulido en piezas cilindricas">
+                <div class="item-contenido">
+                    <img src="img/rectificado-cilindrica-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Herreria" data-etiquetas="amoladora corte alta dureza desbarbados precision"
+                data-descripcion="7.- Cortes en materiales de alta dureza desbarbados">
+                <div class="item-contenido">
+                    <img src="img/herreria-corte-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Torneado" data-etiquetas="torneado torno piezas cilindricas torneado especiales tapa"
+                data-descripcion="8.- Torneado y fabricacion de piezas cilindricas">
+                <div class="item-contenido">
+                    <img src="img/torno-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Torneado" data-etiquetas="torneado torno rosca interior exterior tornillo normalizada whitworth adaptable"
+                data-descripcion="9.- Torneado de roscas normalizadas o adaptacion de complemento especial, exterior y/o interior">
+                <div class="item-contenido">
+                    <img src="img/torno-rosca-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Herreria" data-etiquetas="fabricacion produccion cantidad muchas materiales piezas"
+                data-descripcion="10.- Fabricacion de piezas en produccion">
+                <div class="item-contenido">
+                    <img src="img/herreria-produccion-4.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Torneado" data-etiquetas="agujereado torno cilindrica calisuar terminacion centesimal decimal "
+                data-descripcion="11.- Agujereado en piezas cilindricas y con terminacion limpia de calisuar ">
+                <div class="item-contenido">
+                    <img src="img/torno-agujero-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" data-categoria="Fresado"
+                data-etiquetas="materiales duros fresa fresadora encastres especiales tratamiento"
+                data-descripcion="12.- Fresado en materiales de distinta dureza ">
+                <div class="item-contenido">
+                    <img src="img/fresado-metalesduros-3.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar">
+                    <i class="fas fa-times"></i>
+                </button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="mailto:humatri@hotmail.com" target="_blank" class="mail">
+                        <i class="fas fa-envelope" style="font-size: 31px"></i>
+                     </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://api.whatsapp.com/send?phone=54911000000" target="_blank" class="whatsapp">
+                        <i class="fab fa-whatsapp fa-lg" style="font-size: 34px"></i>
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
